@@ -28,7 +28,6 @@ public class UserController {
 
     //findAll
     //delete
-    //update
 
     @PostMapping("/add")
     public ResponseEntity<User> createUser(@RequestBody User user) {
